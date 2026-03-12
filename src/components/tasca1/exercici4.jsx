@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Exercici4.css";
+import "./exercici4.css";
 import imatge1 from "../../assets/imatge1.jpg";
 import imatge2 from "../../assets/imatge2.jpg";
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Exercici2.css";
+
 
 export default function Exercici2() {
   const [color, setColor] = useState("grey"); 

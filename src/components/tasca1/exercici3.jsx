@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Exercici3.css";
+import "./exercici3.css";
 
 export default function Exercici3() {
   const [bold, setBold] = useState(false);
