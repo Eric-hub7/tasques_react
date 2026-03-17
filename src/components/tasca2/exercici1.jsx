@@ -11,14 +11,16 @@ function Galeria() {
 
   return (
     <div className="galeria-container">
+        
+        
+        <h2>TASCA 2</h2>
+        <h2>Galeria d'imatges</h2>
 
-      <h2>Galeria d'imatges</h2>
-
-      <div className="galeria">
-        {images.map((image, index) => (
-          <img key={index} src={image} alt="imatge" />
-        ))}
-      </div>
+        <div className="galeria">
+            {images.map((image, index) => (
+            <img key={index} src={image} alt="imatge" />
+            ))}
+         </div>
 
     </div>
   );
