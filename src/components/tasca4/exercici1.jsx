@@ -7,7 +7,6 @@ function Exercici1() {
   return (
     <Box sx={{ width: '100%', padding: '20px' }}>
       <Grid container spacing={3}>
-        {/* Primera Targeta: Lizard (URL d'internet) */}
         <Grid item xs={12} md={6} lg={3}>
           <Targeta 
             imatge={fotoLizard}
@@ -18,7 +17,6 @@ function Exercici1() {
           />
         </Grid>
 
-        {/* Segona Targeta: Lleó (Imatge d'assets) */}
         <Grid item xs={12} md={6} lg={3}>
           <Targeta 
             imatge={fotoLleo}
