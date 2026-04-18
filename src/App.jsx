@@ -6,6 +6,8 @@ import Exercici4 from "./components/tasca1/exercici4";
 import Exercici5 from "./components/tasca2/exercici1";
 import Exercici6 from "./components/tasca2/exercici2";
 import Exercici7 from "./components/tasca3/exercici1";
+import Exercici8 from "./components/tasca4/exercici1";
+import Exercici9 from "./components/tasca4/exercici2";
 
 function App() {
   const [exerciciActiu, setExerciciActiu] = useState(null);
@@ -26,6 +28,10 @@ function App() {
         return <Exercici6 />;
       case 7:
         return <Exercici7 />;
+      case 8:
+        return <Exercici8 />;
+      case 9: 
+        return <Exercici9 />;
       default:
         return <p>Selecciona un exercici</p>;
     }
@@ -42,7 +48,8 @@ function App() {
       <button onClick={() => setExerciciActiu(5)}>Tasca 2 - Exercici 1</button>
       <button onClick={() => setExerciciActiu(6)}>Tasca 2 - Exercici 2</button>
       <button onClick={() => setExerciciActiu(7)}>Tasca 3 - Exercici 1</button>
-      
+      <button onClick={() => setExerciciActiu(8)}>Tasca 4 - Exercici 1</button> 
+      <button onClick={() => setExerciciActiu(9)}>Tasca 4 - Exercici 2</button> 
       <br /><br />
       <hr />
       

@@ -1,22 +1,26 @@
 import React from 'react';
 import Targeta from './Targeta';
-
+import fotoLleo from '../../assets/lleo.jpg';
+import fotoTigre from '../../assets/tigre.jpg';
+import fotoPanda from '../../assets/panda.jpg';
+import fotoLizard from '../../assets/lizard.png';
+import fotoTortuga from '../../assets/tortuga.jpg'
 function Exercici1() {
   return (
     <div>
       <h2>Tasca 3 - Exercici de Props</h2>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', padding: '20px' }}>
         <Targeta 
-          imatge="https://mui.com/static/images/cards/contemplative-reptile.jpg"
+          imatge={fotoLizard}
           titol="Lizard"
           text="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica"
-          textBoto1="SHARE"
+          textBoto1="COMPARTIR"
           enllacBoto1="#share"
-          textBoto2="LEARN MORE"
+          textBoto2="LLEGIR MÉS"
           enllacBoto2="#learn-more"
         />
         <Targeta 
-          imatge="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/400px-Lion_waiting_in_Namibia.jpg"
+          imatge={fotoLleo}
           titol="Lleó"
           text="Els lleons són grans fèlids carnívors que viuen principalment a l'Àfrica subsahariana i en una petita regió de l'Índia."
           textBoto1="COMPARTIR"
@@ -25,7 +29,7 @@ function Exercici1() {
           enllacBoto2="#info"
         />
         <Targeta 
-          imatge="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/400px-Walking_tiger_female.jpg"
+          imatge={fotoTigre}
           titol="Tigre"
           text="El tigre és l'espècie de fèlid més gran del món i es reconeix fàcilment per les seves ratlles fosques verticals sobre fons taronja."
           textBoto1="VEURE FOTOS"
@@ -34,7 +38,7 @@ function Exercici1() {
           enllacBoto2="#wiki"
         />
         <Targeta 
-          imatge="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/400px-Grosser_Panda.JPG"
+          imatge={fotoPanda}
           titol="Panda"
           text="El panda gegant és un ós endèmic de la Xina central, conegut per les seves taques negres i la seva dieta a base de bambú."
           textBoto1="DONAR"
@@ -43,7 +47,7 @@ function Exercici1() {
           enllacBoto2="#llegir"
         />
         <Targeta 
-          imatge="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?auto=format&fit=crop&w=400&q=80"
+          imatge={fotoTortuga}
           titol="Tortuga"
           text="Les tortugues marines són rèptils adaptats a la vida aquàtica que habiten gairebé totes les conques oceàniques del món."
           textBoto1="SALVAR"
